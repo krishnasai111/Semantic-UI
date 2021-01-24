@@ -1,0 +1,144 @@
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: max-content;
+  position: relative;
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+
+
+/* FACILITIES SECTION */
+.facilities_image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: darkslategrey;
+}
+.facilities_text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.hover_effect:hover .overlay {
+  opacity: 1;
+}
+/* END FACILITIES SECTION */
+
+
+
+
+
+
+ @media screen and (min-width: 1140px) {
+  .slide_img{
+    height: auto !important;
+    width: 100% !important;
+  }
+  .logo{
+    height: 100%;
+    width: 70%;
+  }
+
+}
+
+ @media screen and (max-width: 1140px) {
+  .logo{
+    height: auto;
+    width: 100%;
+  }
+
+}
+
+
+.logo_text h1{
+  text-align: center; 
+  font-size: 8vh;
+}
+@media screen and (max-width: 1140px) {
+  .logo_text h1{
+    font-size: 3vh;
+
+    }
+  }
+ 
+
+#about_text{
+ font-family: 'Katibeh', cursive;
+ font-size: 23px;
+}
+
+body.pushable>.pusher {
+    background: #f8f1f1;
+}
+
+.ui.vertical.tabular.menu {
+  border-right: 1px solid #c31c1ceb;
+}
+.ui.vertical.tabular.menu .active.item{
+  background: none #c31c1ceb;
+}
+.logo_text h1:first-child{
+margin-top: 22px;
+}
+.ui.card, .ui.cards>.card #cards  {
+  background: none;
+}
+
+.ui.grid>.column:not(.row), .ui.grid>.row>.column #columns{
+  width: 23.25%;
+}
