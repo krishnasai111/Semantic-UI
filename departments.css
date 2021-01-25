@@ -141,8 +141,11 @@ margin-top: 22px;
 
 .ui.grid>.column:not(.row), .ui.grid>.row>.column #columns{
   width: 23.25%;
+<<<<<<< HEAD
 }
 
 .ui.card>.content{
   font-size: 15px;
+=======
+>>>>>>> 92c39b6a55730655117988fc00018155d0bbe39f
 }
