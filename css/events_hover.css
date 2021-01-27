@@ -2,7 +2,7 @@
   position: relative;
   margin: 0 auto;
   padding: 1em 0 4em;
-  max-width: 1000px;
+ 
   list-style: none;
   text-align: center;
 }
@@ -13,10 +13,10 @@
   float: left;
   overflow: hidden;
   margin: 10px 1%;
-  min-width: 320px;
+  min-width: 235px;
   max-width: 480px;
   max-height: 360px;
-  width: 48%;
+  width: 100%;
   background: #3085a3;
   text-align: center;
   cursor: pointer;
@@ -31,7 +31,7 @@
 }
 
 #grid figure figcaption {
-  padding: 2em;
+  padding: 1em;
   color: #fff;
   text-transform: uppercase;
   font-size: 1.25em;
@@ -64,7 +64,10 @@
 }
 
 #grid figure h2 {
- word-spacing: -0.15em;
+  font-size: 1.214286rem;
+  text-align: center;
+  line-height: 1.285714em;
+ word-spacing: 0.25em;
   font-weight: 300;
 }
 
@@ -72,9 +75,9 @@
   font-weight: 800;
 }
 
-#grid figure h2,
+#grid figure h2{margin: 0;}
 #grid figure p {
-  margin: 0;
+  margin: 10px;
 }
 
 .grid figure p {
@@ -110,10 +113,10 @@ figure.effect-oscar figcaption {
 
 figure.effect-oscar figcaption::before {
   position: absolute;
-  top: 30px;
-  right: 30px;
-  bottom: 30px;
-  left: 30px;
+  top: 11px;
+  right: 10px;
+  bottom: 18px;
+  left: 12px;
   border: 1px solid #fff;
   content: "";
 }
@@ -179,4 +182,7 @@ figure.effect-oscar:hover img {
 }
 .clearfix:after {
   clear: both;
+}
+.ui.grid>.column:not(.row) {
+    width: 24.25%;
 }
