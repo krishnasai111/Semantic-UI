@@ -107,7 +107,7 @@
 
 .logo_text h1{
   text-align: center; 
-  font-size: 8vh;
+  font-size: 6vh;
 }
 @media screen and (max-width: 1140px) {
   .logo_text h1{

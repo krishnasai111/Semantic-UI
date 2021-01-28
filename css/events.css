@@ -6,7 +6,7 @@
   }
   .logo{
     height: 100%;
-    width: 70%;
+    width: 85%;
   }
 }
  @media screen and (max-width: 1140px) {
@@ -17,7 +17,7 @@
 }
 .logo_text h1{
   text-align: center; 
-  font-size: 6vh;
+  font-size: 11vh;
 }
 @media screen and (max-width: 1140px) {
   .logo_text h1{
@@ -25,7 +25,7 @@
     }
   }
  .logo_text h1:first-child{
-margin-top: 19px;
+margin-top: 27px;
 }
                       /**Logo and Logo Text Ending*/
 
