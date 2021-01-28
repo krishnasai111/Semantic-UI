@@ -192,3 +192,8 @@ figure.effect-lily:hover p {
 h1:first-child{
     margin-top: 34px;
 }
+
+
+.ui.menu .ui.dropdown .menu>.item {
+  background: #db2828 !important;
+}
