@@ -132,21 +132,21 @@ img {vertical-align: middle;}
 .xyz {
   background-color: lightblue;
   width:auto;
-  height: 300px;
+  height: 560px;
   overflow: auto;
   padding: 10px;
 }
 .xyz2 {
   background-color: orange;
   width:auto;
-  height: 300px;
+  height: 560px;
   padding: 10px;
   overflow: auto;
 }
 .xyz3 {
   background-color: pink;
   width:auto;
-  height: 300px;
+  height: 560px;
   padding: 10px;
   overflow: auto;
 }
