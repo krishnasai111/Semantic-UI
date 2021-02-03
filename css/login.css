@@ -1,0 +1,33 @@
+                      /*Logo and Logo Text*/
+@media screen and (min-width: 1140px) {
+  .slide_img{
+    height: auto !important;
+    width: 100% !important;
+  }
+  .logo{
+    height: 100%;
+    width: 85%;
+  }
+}
+ @media screen and (max-width: 1140px) {
+  .logo{
+    height: auto;
+    width: 100%;
+  }
+}
+.logo_text h1{
+  text-align: center; 
+  font-size: 11vh;
+}
+@media screen and (max-width: 1140px) {
+  .logo_text h1{
+    font-size: 3vh;
+    }
+  }
+ .logo_text h1:first-child{
+margin-top: 27px;
+}
+body.pushable>.pusher {
+    background: #f8f1f1;
+}
+
