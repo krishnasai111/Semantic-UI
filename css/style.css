@@ -291,7 +291,7 @@ body.pushable>.pusher {
 #grid {
   position: relative;
   margin: 0 auto;
-  padding: 1em 0 4em;
+  padding: -1em 0 4em;
  
   list-style: none;
   text-align: center;
@@ -442,4 +442,15 @@ h1:first-child{
     margin-top: 34px;
 }
 
+
+
+.ui.images {
+    font-size: 0;
+    margin: 0px 15.75rem 0;
 }
+.ui.small.images img {
+    width: 260px;
+    height: auto;
+    font-size: .92857143rem;
+}
+ 
